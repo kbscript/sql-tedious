@@ -12,13 +12,13 @@ var statement = "Select top (1) id From member_info Where Associd = @Associd;"
 var counter = 0;
 
 setInterval( function () {     
-    var sqlexecute = new SqlExecute( [statement, params, connection, function ( err, result ) {
+    var sqlexecute = new SqlExecute( statement, params, connection, function ( err, result ) {
             if ( err ) { return console.log( err ); }
             
             //after 5 successful logins set connection back to 
             console.log( "Success - " + counter );
 
             counter++;
-    }] );
+    } );
 
-}, 5000 );
+}, 20000 );

@@ -9,7 +9,7 @@
   "author": "Kevin Barnett <kevinbarnett5506@gmail.com>",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "tedious": "~1.8.1",
-    "generic-pool": "~2.1.1"
+    "generic-pool": "~2.1.1",
+    "tedious": "^1.11.0"
   }
 }

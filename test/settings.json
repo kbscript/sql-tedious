@@ -1,0 +1,5 @@
+﻿{
+	"DB1": { "server": "localhost", "name": "LA-KEVIN", "port": 1433, "userName": "leaGaThAD055", "password": "bb4FFd%#1287DWl$q", "database": "leagueathletics_db", "TotalAttempts": 1, "failPartner": "DB2" },
+	"DB2": { "server": "66.203.159.247", "name": "DSQL247", "port": 1433, "userName": "leaGaThAD055", "password": "bb4FFd%#1287DWl$q", "database": "leagueathletics_db", "TotalAttempts": 1, "failPartner": "DB1" },
+	"length": 1
+}
